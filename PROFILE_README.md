@@ -1,42 +1,37 @@
-# Hi, I'm Kiran Shrimali 👋
+# Kiran Shrimali | Cloud Engineer
 
 <div align="center">
 
 ![Azure](https://img.shields.io/badge/Azure-Cloud%20Engineer-0078D4?logo=microsoftazure&logoColor=white)
 ![AKS](https://img.shields.io/badge/AKS-Kubernetes-326CE5?logo=kubernetes&logoColor=white)
 ![DevOps](https://img.shields.io/badge/DevOps-Automation-4CAF50)
-![Security](https://img.shields.io/badge/Resilience-Production%20Ready-FF9800)
+![Reliability](https://img.shields.io/badge/Reliability-Production%20Ready-FF9800)
 
 </div>
 
-Cloud Engineer with a strong focus on Azure, Kubernetes, and resilient infrastructure modernization. I work on building secure, scalable, and production-ready cloud environments with an emphasis on availability, automation, and operational stability.
+Cloud Engineer with hands-on experience in Azure infrastructure, Kubernetes operations, and production-ready cloud modernization. I focus on building resilient, secure, and scalable environments that support high-availability workloads and smooth operational transitions.
 
-## About me
-I enjoy solving real-world infrastructure challenges by combining cloud architecture, Kubernetes operations, automation, and risk-focused deployment patterns. My work centers on building systems that are reliable, observable, and easier to operate in production.
+## Professional Summary
+I help organizations modernize their cloud environments by combining Azure administration, container orchestration, automation, and operational best practices. My work is centered on improving system reliability, reducing risk during migration, and ensuring workloads are ready for production environments.
 
-## Core skills
+## Core Skills
 - Azure Kubernetes Service (AKS)
-- Kubernetes cluster operations and troubleshooting
-- Cloud infrastructure modernization
-- High availability and multi-zone architecture
-- Azure CLI and cloud administration
-- YAML, manifests, and automation scripts
+- Kubernetes cluster management and troubleshooting
+- Azure Cloud Infrastructure and Operations
+- Load balancing, service health, and workload scheduling
+- High-availability and multi-zone architecture design
 - Backup, rollback, and recovery planning
-- DevOps documentation and portfolio-ready delivery
+- YAML manifests and infrastructure automation
+- Risk mitigation and production change control
+- DevOps documentation and portfolio project delivery
 
-## Featured project
+## Featured Project
 ### AKS Node Pool Migration to Multi-Zone Resilience
-A production-focused migration project demonstrating how to move AKS workloads from a single-zone node pool to a multi-zone architecture with careful validation, risk mitigation, rollback planning, and operational monitoring.
-
-- Multi-zone AKS node pool migration
-- Workload validation and scheduling
-- Backup and recovery strategy
-- Pod disruption and availability safeguards
-- Risk mitigation and rollback planning
+This project demonstrates a production-focused migration of AKS workloads from a single-zone setup to a multi-zone, high-availability architecture. It includes validation steps, node pool migration commands, risk assessment, rollback planning, and operational monitoring for safe cloud transformation.
 
 Repository: https://github.com/KiranShrimali/aks-migration-multizone
 
-## Tools & platforms
+## Tools & Platforms
 ![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-Scripting-4EAA25?logo=gnu-bash&logoColor=white)
@@ -48,7 +43,7 @@ Repository: https://github.com/KiranShrimali/aks-migration-multizone
 - Email: jkshri2010@gmail.com
 - GitHub: https://github.com/KiranShrimali
 
-## Professional focus
-I am focused on building cloud systems that are not only functional, but resilient under change, easy to operate, and aligned with modern engineering best practices.
+## Career Focus
+I am focused on Cloud Engineering roles involving Azure, Kubernetes, infrastructure modernization, reliability engineering, and production operations. I aim to build systems that are scalable, resilient, secure, and operationally sound.
 
-> I’m passionate about Azure cloud operations, Kubernetes reliability, and creating infrastructure that supports business continuity.
+> Passionate about Azure cloud operations, container platform reliability, and creating infrastructure that supports business continuity and growth.
