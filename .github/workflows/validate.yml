@@ -1,0 +1,30 @@
+name: Validate AKS Manifests
+
+on:
+  push:
+    paths:
+      - "manifests/**"
+      - "scripts/**"
+  pull_request:
+    paths:
+      - "manifests/**"
+      - "scripts/**"
+
+jobs:
+  lint-yaml:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install yamllint
+        run: sudo apt-get update && sudo apt-get install -y yamllint
+      - name: Validate YAML
+        run: yamllint manifests/
+
+  shellcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install shellcheck
+        run: sudo apt-get update && sudo apt-get install -y shellcheck
+      - name: Validate shell scripts
+        run: find scripts -name "*.sh" -exec shellcheck {} +
