@@ -32,6 +32,12 @@ This project documents a safe migration approach for AKS workloads, focusing on:
 
 This repository is intended to showcase cloud-native engineering, Azure operations, and Kubernetes best practices in a portfolio-ready format.
 
+<div align="center">
+
+![AKS before/after status](images/aks-before-after.svg)
+
+</div>
+
 ## Why this matters
 Running production workloads in a single AKS availability zone introduces operational risk when a zone becomes unavailable or maintenance events impact the node pool. Moving to a multi-zone design improves:
 

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="good" x1="0" x2="1">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="warn" x1="0" x2="1">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="danger" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f87171"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="520" fill="url(#bg)" rx="18"/>
+  <text x="600" y="58" text-anchor="middle" font-size="30" font-family="Arial, sans-serif" fill="#e5e7eb" font-weight="700">AKS Multi-Zone Migration: Before vs After</text>
+
+  <!-- Before panel -->
+  <rect x="80" y="100" width="470" height="320" rx="18" fill="#1f2937" stroke="#374151"/>
+  <text x="315" y="138" text-anchor="middle" font-size="26" font-family="Arial, sans-serif" fill="#f9fafb" font-weight="700">Before</text>
+
+  <rect x="130" y="170" width="140" height="34" rx="8" fill="#f59e0b" opacity="0.9"/>
+  <text x="200" y="192" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" fill="#111827" font-weight="700">Zone 1</text>
+
+  <rect x="285" y="170" width="140" height="34" rx="8" fill="#ef4444" opacity="0.78"/>
+  <text x="355" y="192" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" fill="#fff" font-weight="700">Zone 2</text>
+
+  <rect x="130" y="220" width="295" height="18" rx="9" fill="#fbbf24" opacity="0.7"/>
+  <rect x="130" y="260" width="295" height="18" rx="9" fill="#ef4444" opacity="0.7"/>
+  <rect x="130" y="300" width="295" height="18" rx="9" fill="#f87171" opacity="0.7"/>
+
+  <text x="315" y="360" text-anchor="middle" font-size="26" font-family="Arial, sans-serif" fill="#fca5a5" font-weight="700">Single-zone risk</text>
+
+  <!-- Arrow -->
+  <path d="M 575 260 L 625 260" stroke="#9ca3af" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 625 260 L 610 246 M 625 260 L 610 274" stroke="#9ca3af" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- After panel -->
+  <rect x="650" y="100" width="470" height="320" rx="18" fill="#1f2937" stroke="#374151"/>
+  <text x="885" y="138" text-anchor="middle" font-size="26" font-family="Arial, sans-serif" fill="#f9fafb" font-weight="700">After</text>
+
+  <rect x="700" y="170" width="110" height="34" rx="8" fill="url(#good)"/>
+  <text x="755" y="192" text-anchor="middle" font-size="17" font-family="Arial, sans-serif" fill="#052e16" font-weight="700">Zone 1</text>
+
+  <rect x="825" y="170" width="110" height="34" rx="8" fill="url(#good)"/>
+  <text x="880" y="192" text-anchor="middle" font-size="17" font-family="Arial, sans-serif" fill="#052e16" font-weight="700">Zone 2</text>
+
+  <rect x="950" y="170" width="110" height="34" rx="8" fill="url(#good)"/>
+  <text x="1005" y="192" text-anchor="middle" font-size="17" font-family="Arial, sans-serif" fill="#052e16" font-weight="700">Zone 3</text>
+
+  <rect x="700" y="225" width="360" height="18" rx="9" fill="#34d399" opacity="0.85"/>
+  <rect x="700" y="262" width="360" height="18" rx="9" fill="#10b981" opacity="0.9"/>
+  <rect x="700" y="299" width="360" height="18" rx="9" fill="#34d399" opacity="0.85"/>
+
+  <text x="885" y="360" text-anchor="middle" font-size="26" font-family="Arial, sans-serif" fill="#86efac" font-weight="700">Healthy multi-zone status</text>
+</svg>
